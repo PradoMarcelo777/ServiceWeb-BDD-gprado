@@ -29,7 +29,7 @@ CREATE TABLE `estudiante` (
   `edad` int DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `estudiante_id_IDX` (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `estudiante` (
 
 LOCK TABLES `estudiante` WRITE;
 /*!40000 ALTER TABLE `estudiante` DISABLE KEYS */;
-INSERT INTO `estudiante` VALUES (1,'Juan','Vargas',25),(3,'Luisa Estefania','Lemas',25);
+INSERT INTO `estudiante` VALUES (1,'Juan','Vargas',25),(3,'Luisa Estefania','Lemas',25),(6,'Ana','Mora',19),(7,'Diego','Tapia',42);
 /*!40000 ALTER TABLE `estudiante` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-09  0:44:12
+-- Dump completed on 2024-11-09  1:09:42
